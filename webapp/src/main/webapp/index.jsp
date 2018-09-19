@@ -1,3 +1,2 @@
-Hello, Welcome to Valaxy Technologies !!
+Hello, welcome to compassites!!
 
-Deployment is going to happen through ansible

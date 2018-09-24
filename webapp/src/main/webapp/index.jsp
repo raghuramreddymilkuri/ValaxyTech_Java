@@ -1,2 +1,2 @@
-Hello,  good afternoon welcome to compassites!!
+Hello, welcome to compassites!!
 

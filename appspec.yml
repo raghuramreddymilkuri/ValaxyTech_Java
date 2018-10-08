@@ -1,5 +1,0 @@
-version: 0.0
-os: linux
-files:
-  - source: /
-    destination: /opt/apache-tomcat-8.5.34/webapps

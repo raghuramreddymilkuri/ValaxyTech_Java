@@ -27,3 +27,17 @@ resource "aws_security_group" "TestSecurityGroup"
   }
   
 }
+
+# Create a security group
+resource "aws_security_group" "TestSecurityGroup" {
+  name        = "TestSecurityGroup"
+  description = "Allow SSH and HTTP traffic"
+  vpc_id      = "vpc-1a2b3c4d"
+
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}
